@@ -1,0 +1,18 @@
+# OS-specific stuff
+.DS_Store
+
+# Editor and language stuff
+.idea/
+.project/
+.bundle/
+
+# Vagrant stuff
+.vagrant/
+vagrant_ansible_inventory_default
+*console.log
+
+# Drupal stuff
+/PROJECT
+prod-PROJECT*.sql
+*.gz
+settings.local.php
